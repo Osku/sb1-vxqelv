@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply text-gray-800;
+  }
+  
+  .prose mark {
+    @apply bg-green-200 rounded px-1;
+  }
+}
